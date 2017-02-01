@@ -1,0 +1,14 @@
+body {
+  padding-top: 100px;
+}
+
+h1, p {
+  font-family: "Quicksand", sans-serif;
+  width: 60%;
+  margin: 10px 20%;
+}
+
+#github {
+  margin-left: 12px;
+  margin-bottom: -2px;
+}
