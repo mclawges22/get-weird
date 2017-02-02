@@ -45,3 +45,13 @@ a:hover {
   margin-left: 12px;
   margin-bottom: -2px;
 }
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 650px){
+  h1, h2, p {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
