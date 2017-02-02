@@ -2,10 +2,41 @@ body {
   padding-top: 100px;
 }
 
-h1, p {
+h1, h2, p {
   font-family: "Quicksand", sans-serif;
   width: 60%;
   margin: 10px 20%;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-bottom: 16px;
+}
+
+h2 span {
+  font-size: 18px;
+}
+
+h2 span:first-child {
+  margin-left: 16px;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  text-transform: uppercase;
+}
+
+.sebrand {
+  color: green;
+}
+
+.maegan {
+  color: purple;
 }
 
 #github {

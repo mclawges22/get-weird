@@ -1,0 +1,47 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h4, h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 100px;
+}
+
+h4 {
+  color: #BBB;
+}
+
+h3 {
+  letter-spacing: 1.6px;
+}
+
+.fixed-wrapper {
+  height: 600px;
+  position: fixed;
+  width: 100%;
+}
+
+.scroll-wrapper {
+  height: 3831px;
+  overflow: scroll;
+  width: 100%;
+}
+
+.scroll-1 {
+  margin-top: 900px;
+}
+
+.scroll-2 {
+  margin-top: 660px;
+}
+
+span {
+  opacity: 0;
+}
