@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background(50, 89, 100, 100);
+  background(50, 89, 100, 40);
   distMouseToOrigin = dist(width/2, height/2, mouseX, mouseY);
   if (distMouseToOrigin>50)
   	distMouseToOrigin-=50;
