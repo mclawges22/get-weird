@@ -1,9 +1,6 @@
 
 
 
-
-var bugs = []; // array of Jitter objects
-var particle;
 var distMouseToOrigin;
 var particleRect;
 
@@ -11,8 +8,7 @@ var particleRect;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   // Create objects
-  particle = new Particle(10,10);
-  particleRect = new ParticleRect(width/2-150, height/2-75, 300,150);
+  particleRect = new ParticleRect(width/2-75, height/2-37.5, 150,75);
 
   distMouseToOrigin = dist(width/2, height/2, 0, 0);
 }
@@ -20,9 +16,12 @@ function setup() {
 function draw() {
   background(50, 89, 100, 100);
   distMouseToOrigin = dist(width/2, height/2, mouseX, mouseY);
+  if (distMouseToOrigin>50)
+  	distMouseToOrigin-=50;
+  else
+  	distMouseToOrigin=0;
 
   noStroke();
-  particle.display();
   particleRect.display();
 
 }
