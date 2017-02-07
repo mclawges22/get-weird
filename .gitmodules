@@ -1,0 +1,3 @@
+[submodule "andrew/image-quad-tree"]
+	path = andrew/image-quad-tree
+	url = https://github.com/heysweet/image-quad-tree
