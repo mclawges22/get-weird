@@ -4,6 +4,9 @@
 var distMouseToOrigin;
 var particleRect;
 
+document.ontouchmove = function(event){
+    event.preventDefault();
+}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
