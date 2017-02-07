@@ -4,8 +4,23 @@
 var distMouseToOrigin;
 var particleRect;
 
-document.ontouchmove = function(event){
-    event.preventDefault();
+module.exports = function(el) {
+  el.addEventListener('touchstart', function() {
+    var top = el.scrollTop
+      , totalScroll = el.scrollHeight
+      , currentScroll = top + el.offsetHeight
+
+    //If we're at the top or the bottom of the containers
+    //scroll, push up or down one pixel.
+    //
+    //this prevents the scroll from "passing through" to
+    //the body.
+    if(top === 0) {
+      el.scrollTop = 1
+    } else if(currentScroll === totalScroll) {
+      el.scrollTop = top - 1
+    }
+  })
 }
 
 function setup() {
