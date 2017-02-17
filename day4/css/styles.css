@@ -27,7 +27,7 @@ html, body {
 .triangle-0 {
   height: 400px;
   width: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: -300px;
   border: 600px solid rgba(0, 255, 100, 0.5);
@@ -39,9 +39,9 @@ html, body {
 .triangle-01 {
   height: 400px;
   width: 0;
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: 594px;
+  left: 600px;
   border: 600px solid rgba(255, 100, 100, 0.5);
   border-left: 0 solid rgba(0, 0, 0, 0);
   border-right: 600px solid rgba(0, 0, 0, 0);
