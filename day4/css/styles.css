@@ -34,6 +34,7 @@ html, body {
   border-left: 900px solid rgba(0, 0, 0, 0);
   border-right: 200px solid rgba(0, 0, 0, 0);
   border-bottom: none;
+  z-index: 500;
 }
 
 .triangle-01 {
@@ -46,6 +47,7 @@ html, body {
   border-left: 0 solid rgba(0, 0, 0, 0);
   border-right: 600px solid rgba(0, 0, 0, 0);
   border-bottom: none;
+  z-index: 1000;
 }
 
 .triangle-1 {
