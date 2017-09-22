@@ -1,0 +1,76 @@
+html, body {
+  width: 100%;
+	margin: 0;
+  overflow-x: hidden;
+}
+
+.section-1 {
+  height: 3000px;
+  width: 100%;
+}
+
+.section-2 {
+  height: 3000px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.triangle-main {
+  height: 0;
+  width: 0;
+  position: fixed;
+  border: 1300px solid rgba(2, 2, 76, 0.5);
+  border-top: 900px solid rgba(0, 0, 0, 0);
+  border-left: 100px solid rgba(0, 0, 0, 0);
+  border-bottom: 1000px solid rgba(0, 0, 0, 0);
+}
+
+.triangle-0 {
+  height: 400px;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  border: 600px solid rgba(0, 255, 100, 0.5);
+  border-left: 900px solid rgba(0, 0, 0, 0);
+  border-right: 200px solid rgba(0, 0, 0, 0);
+  border-bottom: none;
+  z-index: 500;
+}
+
+.triangle-01 {
+  height: 400px;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 600px;
+  border: 600px solid rgba(255, 100, 100, 0.5);
+  border-left: 0 solid rgba(0, 0, 0, 0);
+  border-right: 600px solid rgba(0, 0, 0, 0);
+  border-bottom: none;
+  z-index: 1000;
+}
+
+.triangle-1 {
+  height: 400px;
+  width: 0;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  border: 1500px solid rgba(0, 0, 255, 0.5);
+  border-top: 900px solid rgba(0, 0, 0, 0);
+  border-right: none;
+  border-bottom: 1500px solid rgba(0, 0, 0, 0);
+}
+
+.triangle-2 {
+  height: 0;
+  width: 0;
+  position: fixed;
+  top: 300px;
+  right: 0;
+  border: 500px solid rgba(255, 242, 0, 0.7);
+  border-top: 500px solid rgba(0, 0, 0, 0);
+  border-left: none;
+  border-bottom: 500px solid rgba(0, 0, 0, 0);
+}
